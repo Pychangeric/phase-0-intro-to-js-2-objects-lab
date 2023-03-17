@@ -36,7 +36,7 @@ describe('employees', function() {
     });
   });
 
-  describe('deleteFromEmployeeByKey(employee, key)', function () {
+  describe('destructivelyUpdateEmployeeWithKeyAndValue(employee, key)', function () {
     it('deletes `key` from a clone of employee and returns the new employee (it is non-destructive)', function () {
       let newEmployee = deleteFromEmployeeByKey(employee, 'name');
 
